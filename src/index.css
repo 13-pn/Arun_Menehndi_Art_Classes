@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+  background: 
+    linear-gradient(rgba(30, 30, 30, 0.85), rgba(30, 30, 30, 0.85)),
+    url("/img/ALLBg.png") no-repeat center center / cover;
+  background-attachment: fixed;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background: linear-gradient(to bottom, #D8C3A5, #EAE7DC); 
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}

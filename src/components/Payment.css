@@ -1,0 +1,238 @@
+.payment-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000; 
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 100px 40px 60px;
+  box-sizing: border-box;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.payment-info {
+  background: #111;
+  color: #eee;
+  border-radius: 15px;
+  padding: 30px 35px;
+  max-width: 450px;
+  flex: 1 1 400px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
+  line-height: 1.6;
+}
+
+.payment-info h2 {
+  font-size: 1.8rem;
+  color: #ff4d4d;
+  margin-bottom: 20px;
+}
+
+.payment-info h3 {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.payment-info p,
+.payment-info li {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.payment-info ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.payment-card {
+  background: #111;
+  color: #fff;
+  border-radius: 15px;
+  padding: 30px 40px;
+  max-width: 450px;
+  flex: 1 1 400px;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.business-name {
+  color: #ff4d4d;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.payment-title {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #f0f0f0;
+}
+
+.amount-section {
+  text-align: center;
+  margin: 30px auto;
+  background-color: rgba(20, 20, 20, 0.9);
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(20, 184, 166, 0.15);
+  max-width: 400px;
+  border-top: 4px solid #14b8a6;
+}
+
+.amount-section p {
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.amount {
+  font-size: 1.8rem;
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.amount-label {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.amount-display {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 12px;
+}
+.old-amount {
+  color: #9ca3af;
+  font-size: 22px;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+.new-amount {
+  color: #facc15;
+  font-size: 32px;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.4);
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.input-section label {
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.input-section input {
+  padding: 10px;
+  border: 1.5px solid #444;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #000;
+  color: #fff;
+  transition: border 0.3s ease;
+}
+
+.input-section input:focus {
+  border-color: #ff4d4d;
+  outline: none;
+}
+
+.pay-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.pay-btn:hover {
+  background: #ff6b6b;
+  transform: scale(1.05);
+}
+.imgLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.imgLogo img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(255, 255, 255, 0.2));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imgLogo img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 6px 10px rgba(255, 255, 255, 0.3));
+}
+.footer {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  color: #aaa;
+  font-size: 0.85rem;
+}
+
+.footer-note a {
+  color: #ff4d4d;
+  text-decoration: none;
+}
+
+.footer-note a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .payment-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+  }
+
+  .payment-card,
+  .payment-info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .payment-card {
+    padding: 25px 20px;
+  }
+
+  .payment-info {
+    padding: 25px 20px;
+  }
+
+  .business-name {
+    font-size: 1.6rem;
+  }
+
+  .amount {
+    font-size: 1.6rem;
+  }
+
+  .pay-btn {
+    width: 100%;
+  }
+
+  .imgLogo img {
+    max-width: 200px;
+  }
+}

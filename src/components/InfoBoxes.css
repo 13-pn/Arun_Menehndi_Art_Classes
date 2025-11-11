@@ -1,0 +1,86 @@
+.info-section {
+  padding: 10px 5%;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.info-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.info-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 30px 25px;
+  flex: 1 1 45%;
+  max-width: 48%;
+  min-width: 300px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.info-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.info-box h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #b55707;
+}
+
+.info-box p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.info-btn {
+  background-color: #d97a16;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.info-btn:hover {
+  background-color: #b96110;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .info-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .social-icons {
+    justify-content: start;
+  }
+}

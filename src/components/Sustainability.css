@@ -1,0 +1,79 @@
+.sustainability-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sustainability-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.sustainability-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 1;
+}
+
+.sustainability-text {
+  color: #fff;
+  max-width: 800px;
+  text-align: center;
+}
+
+.sustainability-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffe3b3;
+}
+
+.sustainability-text p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  color: #f2f2f2;
+}
+
+.sustainability-btn {
+  padding: 12px 28px;
+  background-color: #d97a16;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sustainability-btn:hover {
+  background-color: #b96110;
+}
+
+@media (max-width: 768px) {
+  .sustainability-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .sustainability-text p {
+    font-size: 1rem;
+  }
+
+  .sustainability-btn {
+    font-size: 0.95rem;
+    padding: 10px 22px;
+  }
+}

@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.worktech-section {
+  position: relative;
+  padding: 0px 5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.worktech-section h2 {
+  color: #FFD700;
+}
+
+.worktech-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px) brightness(0.7);
+  z-index: 0;
+  transform: scale(1.05);
+}
+
+.worktech-section > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.worktech-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #E6B325;
+  margin-bottom: 50px;
+}
+
+.worktech-heading span {
+  color: #4E6E58;
+}
+
+.worktech-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.worktech-card {
+  background-color: white;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 280px;      
+  height: 340px;     
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.worktech-card:hover {
+  transform: translateY(-10px);
+  border-color: #FFD700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.worktech-card img {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover;
+}
+
+.worktech-card h3{
+  font-size: 1.3rem; 
+  color: #222;
+  margin: 10px 0 6px;
+}
+
+.worktech-card p {
+  font-size: 0.95rem; 
+  color: rgba(17, 17, 17, 0.8);
+  padding: 0 12px 15px;
+  flex-grow: 1;
+}
+
+@media (max-width: 1024px) {
+  .worktech-card {
+    width: 250px;
+    height: 310px;
+  }
+
+  .worktech-card img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .worktech-gallery {
+    gap: 20px;
+  }
+
+  .worktech-card {
+    width: 220px;
+    height: 290px;
+  }
+
+  .worktech-card img {
+    height: 140px;
+  }
+
+  .worktech-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .worktech-card {
+    width: 85%;
+    height: auto;
+  }
+
+  .worktech-card img {
+    height: 180px;
+  }
+
+  .worktech-heading {
+    font-size: 1.8rem;
+  }
+}
