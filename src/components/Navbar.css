@@ -19,12 +19,14 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+
+
 .logo {
   display: flex;
   align-items: center;
 }
 
-.nav-logo {
+.logo-img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -34,7 +36,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.nav-logo:hover {
+.logo-img:hover {
   transform: scale(1.08);
   box-shadow: 0 0 15px rgba(255, 213, 128, 0.6);
 }

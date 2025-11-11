@@ -8,7 +8,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="/fnimg/Logo.png" alt="Logo" className="nav-logo" />
+       <img
+          src="https://lh3.googleusercontent.com/d/18eAbQ1RXXrczaTTM-J4m4JNqwFl1fqCB"
+          alt="Arun Mehndi Art & Classes Logo"
+          className="logo-img"
+        />
+
       </div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>

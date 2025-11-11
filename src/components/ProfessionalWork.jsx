@@ -11,7 +11,6 @@ const videos = [
   { id: "1WQ2Erc1TTFYzj24WKacmmSEQyhYUGEwT" },
   { id: "1fFKF_jOGJ0w4UGtPoRoo91Qv-PHvap_r" },
   { id: "1gdlC7B9tEUhTTt2ndDcxAQHoyOLPUXR_" },
-  // https://drive.google.com/file/d/1gdlC7B9tEUhTTt2ndDcxAQHoyOLPUXR_/view?usp=drive_link
 ];
 
 const ProfessionalWork = () => {
