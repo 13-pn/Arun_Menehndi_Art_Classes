@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Testimonials.css";
 import { Link } from "react-router-dom";
+import { FaInstagram, FaFacebook, FaYoutube, FaWhatsapp, FaPhone } from "react-icons/fa";
 
 const Testimonials = () => {
   const studentReviews = [
@@ -111,13 +112,51 @@ const Testimonials = () => {
       </section>
 
       <footer className="footer">
-        <div className="footer-links">
-          <Link to="/privacy-policy">Privacy Policy</Link>
-          <Link to="/T-A-C">Terms and Conditions</Link>
+        <div className="social">
+          <p>Stay Connected:</p>
+          <div className="social-mob">
+          <div className="social-icons">
+            <a href="https://www.instagram.com/arun_mehndi_art_and_classes?igsh=MXMyb3locGtucXpweg==" target="_blank" rel="noreferrer" className="insta"><FaInstagram /></a>
+            <a href="https://www.facebook.com/arunmehndiartmumbai?ref=embed_page" target="_blank" rel="noreferrer" className="fb"><FaFacebook /></a>
+            <a href="https://youtube.com/@arunmehndistudio?si=lKydUw2WIVpjujCV" target="_blank" rel="noreferrer" className="yt"><FaYoutube /></a>
+            <a href="https://api.whatsapp.com/send?phone=919930000676&text=Hi" target="_blank" rel="noreferrer" className="wt"><FaWhatsapp /></a>
+            <a href="tel:09930315736" target="_blank" rel="noreferrer"><FaPhone /></a>
+          </div>
+          <div className="reg-copy">
+            <p>Book Your slot</p>
+            
+
+          </div></div>
         </div>
-        <p className="footer-text">
-          © 2025 Arun Mehndi Art & Classes. All Rights Reserved.
-        </p>
+        <div className="mobile-social">
+          <div className="peras">
+            <p>Stay Connected:</p>
+            <p>Book Your Slot</p>
+          </div>
+          <div className="m-s-items">
+            <div className="left-item">
+            <a href="https://api.whatsapp.com/send?phone=919930000676&text=Hi" target="_blank" rel="noreferrer" className="wt"><FaWhatsapp /></a>
+            <a href="tel:09930315736" target="_blank" rel="noreferrer"><FaPhone /></a>
+            </div>
+            <div className="right-item">
+              <a href="/enroll-today" className="enroll-btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div className="footer-main">
+          <div className="footer-links">
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/T-A-C">Terms and Conditions</Link>
+          </div>
+          <p className="footer-text">
+            © 2025 Arun Mehndi Art & Classes. All Rights Reserved.
+          </p>
+        </div>
+        <div className="reg">
+          <p>Book Your slot</p>
+          <a href="/enroll-today" className="enroll-btn">Book Now</a>
+
+        </div>
       </footer>
     </>
   );

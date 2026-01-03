@@ -17,10 +17,10 @@ const Navbar = () => {
       </div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/courses">Courses</Link></li>
-        <li><Link to="/why-choose-us">Why Choose Us</Link></li>
-        <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+        <li><Link to="/T-A-C">Terms and Conditions</Link></li>
+        
       </ul>
 
       <div className="nav-button">
@@ -37,16 +37,13 @@ const Navbar = () => {
             <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
           </li>
           <li>
-            <Link to="/courses" onClick={() => setMenuOpen(false)}>Courses</Link>
-          </li>
-          <li>
-            <Link to="/why-choose-us" onClick={() => setMenuOpen(false)}>Why Choose Us</Link>
-          </li>
-          <li>
-            <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
-          </li>
-          <li>
             <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          </li>
+          <li>
+             <Link to="/privacy-policy" onClick={() => setMenuOpen(false)}>Privacy Policy</Link>
+          </li>
+          <li>
+             <Link to="/T-A-C" onClick={() => setMenuOpen(false)}>Terms & Conditions</Link>
           </li>
         </ul>
 

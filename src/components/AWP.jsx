@@ -14,7 +14,7 @@ const AWP = () => {
 
   const products = [
     {
-      img: "/wcu/PS.png",
+      img: "/AWP/Team3.png",
       title: "Thousand of successful alumni across India & abroad",
       desc: "Join a vibrant network of successful alumni who have completed our programs and gone on to build rewarding careers across India and internationally.",
     },
@@ -24,22 +24,22 @@ const AWP = () => {
       desc: "Our fully online and flexible learning platform allows you to access your course materials anytime, from any location. Whether you're a working professional, a student, or someone looking to switch careers.",
     },
     {
-      img: "/wcu/JOP.png",
+      img: "/AWP/Team2.png",
       title: "Job-oriented practical course structure",
       desc: "Our courses are specifically designed with a hands-on, practical approach to ensure you're not just learning theory, but actually gaining the real-world skills and industry knowledge that employers are actively looking for.",
     },
     {
-      img: "/wcu/Experts.png",
+      img: "/AWP/Team4.png",
       title: "Expert mentorship and industry-driven guidance",
       desc: "Learn from experienced mentors and industry professionals who share real-world insights.Get personalized guidance, career advice, and hands-on mentorship. Stay aligned with the latest industry trends and expectations.",
     },
     {
-      img: "/wcu/certificate.png",
+      img: "/AWP/certificate.png",
       title: "Internationally recognized ISO certificate",
       desc: "Upon successful completion, you’ll receive an ISO-certified credential that is internationally recognized, helping you stand out in a competitive job market—whether you're applying locally or abroad.",
     },
     {
-      img: "/wcu/FPS.png",
+      img: "/AWP/work.png",
       title: "Career support and placement assistance",
       desc: "Our dedicated career services team provides end-to-end support—from resume building and interview preparation to job referrals and placement opportunities.",
     },

@@ -131,7 +131,10 @@
   color: #fff;
   font-size: 0.95rem;
 }
-
+.pay-btn>a{
+  color:white;
+  text-decoration:none;
+}
 .input-section input {
   padding: 10px;
   border: 1.5px solid #444;

@@ -62,8 +62,8 @@
   border-radius: 14px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  width: 280px;      
-  height: 340px;     
+  width: 280px;       
+  /* height: 340px;       */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,8 +79,8 @@
 
 .worktech-card img {
   width: 100%;
-  height: 180px; 
-  object-fit: cover;
+  height: 300px; 
+  /* object-fit: cover; */
 }
 
 .worktech-card h3{

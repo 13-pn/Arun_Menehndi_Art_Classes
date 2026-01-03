@@ -37,7 +37,7 @@ const PaymentPage = () => {
       <input type="email" placeholder="Enter your email" />
     </div>
 
-    <button className="pay-btn">Pay Now</button>
+    <button className="pay-btn"><a href="https://razorpay.com/payment-link/plink_RxjqiYI5UySTlV">Book Now</a></button>
 
     <div className="imgLogo">
       <img src="/Payment_Img/pay_methods_brandings.png" alt="Payment Methods" />
@@ -45,9 +45,8 @@ const PaymentPage = () => {
 
     <div className="footer">
       <p className="footer-note">
-        Want to create page like this for your Business? Visit <a href="#">Razorpay Payment Pages</a>
+        Want to create page like this for your Business? Visit <a href="/https://razorpay.com/?utm_source=google&utm_medium=cpc&utm_campaign=RPSME-RPPerf-GSearchBrand-Prospect-Dweb-Core&utm_adgroup=brandsearch_core_exact&utm_content=&utm_term=razorpay&utm_gclid=CjwKCAiAmePKBhAfEiwAU3Ko3P8AtBaIYOhoFItRLtPW-odjmipQr-LZI7MbODJI40aend2YQg8vqBoC8qsQAvD_BwE&utm_campaignID=400139470&utm_adgroupID=27293859910&utm_adID=749949473748&utm_network=g&utm_device=c&utm_matchtype=e&utm_devicemodel=&utm_adposition=&utm_location=9061779&gad_source=1&gad_campaignid=400139470&gbraid=0AAAAADdXWPqwnx0bU_2YH377Y-5DPNJhq&gclid=CjwKCAiAmePKBhAfEiwAU3Ko3P8AtBaIYOhoFItRLtPW-odjmipQr-LZI7MbODJI40aend2YQg8vqBoC8qsQAvD_BwE">Razorpay Payment Pages</a> to get started!
       </p>
-      <p className="report-link">   to get started!</p>
     </div>
   </div>
 </div>
